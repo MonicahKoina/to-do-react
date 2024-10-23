@@ -38,7 +38,7 @@ function Todo() {
     <ol>
         {tasks.map((task, index) => (
             <li key={index}>
-                <span>{tasks}</span>
+                <span>{task}</span>
                 <button
                 onClick={()=>{
                     deleteTask(index)
